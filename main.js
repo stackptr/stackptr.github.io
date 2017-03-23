@@ -1,4 +1,13 @@
 $(function(){
+  // Set gravatar/email
+  var email = 'corey@x64.co',
+      hash = md5(email.trim().toLowerCase());
+
+  $('.email').attr('href', 'mailto:' + email);
+  $('.avatar').css('background-image', 'url(https://www.gravatar.com/avatar/' + hash + ')')
+
+
+
   var events = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
 
   var animCallback = function(el, cb){
