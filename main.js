@@ -4,7 +4,7 @@ $(function(){
       hash = md5(email.trim().toLowerCase());
 
   $('.email').attr('href', 'mailto:' + email);
-  $('.avatar').css('background-image', 'url(https://www.gravatar.com/avatar/' + hash + ')')
+  $('.avatar').css('background-image', 'url(https://www.gravatar.com/avatar/' + hash + '?s=140)')
 
 
 
