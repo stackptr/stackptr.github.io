@@ -9,6 +9,11 @@ body {
   text-size-adjust: 100%;
 }
 
+.pre {
+  font-family: monospace;
+  font-size: 1.25em;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -webkit-flex;

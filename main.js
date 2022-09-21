@@ -4,9 +4,7 @@ $(function(){
       hash = md5(email.trim().toLowerCase());
 
   $('.email').attr('href', 'mailto:' + email);
-  $('.avatar').css('background-image', 'url(https://www.gravatar.com/avatar/' + hash + '?s=140)')
-
-
+  $('.avatar').css('background-image', 'url(https://www.gravatar.com/avatar/' + hash + '?s=300)')
 
   var events = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
 

@@ -14,6 +14,17 @@
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 		<script src="/snap.svg.js"></script>
 		<script src="/md5.min.js"></script>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113473403-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-113473403-1');
+		</script>
+
 		<script>
 	    WebFontConfig = {
 	      google: {
@@ -30,11 +41,10 @@
 	<body>
 		<div class="wrapper">
 			<div class="content animated">
-				<div class="avatar initial" title="This is what I look like, more or less"></div>
+				<div class="avatar initial" title="This is basically what I look like"></div>
 				<header>
 					<h1 class="title initial">Hello, I'm Corey <span class="small">(<a href="https://www.twitter.com/stackptr">@stackptr</a>)</span></h1>
 					<span class="contact">
-						<p class="resume initial"><a href="http://cjohns.co">Resume</a></p>
 						<ul class="social">
 							<li class="initial"><a href="https://www.github.com/stackptr"><i class="fa fa-github-square fa-lg"></i></a></li>
 							<li class="initial"><a href="https://www.last.fm/user/bonekhan"><i class="fa fa-lastfm-square fa-lg"></i></a></li>
@@ -46,10 +56,10 @@
 					</span>
 				</header>
 				<article class="initial">
-					<p>I’m a front-end UI engineer based in Berkeley, using JavaScript to build beautiful things for the web. My current obsessions include <a href="https://vuejs.org">Vue.js</a> and Flux.</p>
-					<p>When I’m not coding, you can find me <a href="https://www.strava.com/athletes/6639769">riding my bike</a>, backpacking, and hiking throughout the beautiful Bay Area. Other interests of mine include literature, chess, design, coffee, locksport and <a href="http://en.lernu.net/">Esperanto</a>. I do not apologize for collecting <a href="https://www.discogs.com/user/stackptr">vinyl</a> and I attend concerts religiously.</p>
-					<p>I teach computer science through <a href="https://www.tealsk12.org">TEALS</a> and serve as Director of Technology with the ed-tech initiative <a href="http://www.believeachieve.org">BelieveAchieve</a>. I’m passionate about issues relating to education, infrastructure, and the environment.</p>
-					<p>To get in touch, send me an <a class="email">email</a> or connect with me on Freenode, ~mu.</p>
+					<p>I'm a software engineer based in Portland, OR. Lately I work with Haskell and TypeScript to build human-centered experiences for the web.</p>
+					<p>When I’m not coding, you can find me <a href="https://www.strava.com/athletes/6639769">riding my bike</a>, backpacking, and rock climbing throughout the Pacific Northwest. I am also fond of playing with synthesizers and hacking on electronics. Other interests of mine include literature, chess, art, coffee, and welding.</p>
+					<p>I currently work at <a href="https://www.freckle.com/">Freckle by Renaissance</a>, helping to empower educators to reach every student at their level through differentiated practice. In the past I've served as Director of Technology with <a href="https://www.upchieve.org">UPchieve</a> and have taught computer science through <a href="https://www.tealsk12.org">TEALS</a>. I build bikes through the volunteer-run collective <a href="http://bikefarm.org">Bike Farm</a>. I am passionate about education, infrastructure, and the environment.</p>
+					<p>To get in touch, send me an <a class="email">email</a> or find me on Freenode under the alias <span class="pre">mu</span>.</p>
 					<p>Cheers!</p>
 				</article>
 			</div>
@@ -57,5 +67,6 @@
 		<!-- <svg class="footer" id="svg">
 		</svg> -->
 		<script src="/main.js"></script>
+		<!-- <script src="/anim.js"></script> -->
 	</body>
 </html>
